@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ProjectController : MonoBehaviour
 {
     private int currentTaskNum;
-    private int numTasks = 20;
+    private int numTasks = 16;
 
     public Text taskText;
     private string[] taskStrings;
@@ -44,6 +44,10 @@ public class ProjectController : MonoBehaviour
 
     public void NextTask()
     {
+        if (currentTaskNum >= numTasks-1)
+        {
+            return;
+        }
         currentTaskNum++;
         taskText.text = taskStrings[currentTaskNum];
     }
