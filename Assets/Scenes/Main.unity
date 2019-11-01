@@ -460,7 +460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.055000003, y: 0.66065025}
   m_AnchorMax: {x: 0.9258877, y: 0.957}
-  m_AnchoredPosition: {x: -2.3514593, y: -0.5}
+  m_AnchoredPosition: {x: -0.8, y: -28.1}
   m_SizeDelta: {x: 7.017084, y: 3.9299726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717942247
@@ -839,7 +839,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251120288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.365}
+  m_LocalPosition: {x: 0, y: 0, z: 0.992}
   m_LocalScale: {x: 0.00415, y: 0.00415, z: 0.00415}
   m_Children:
   - {fileID: 717942246}
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fcaf896491074042b7ed7684454a412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventsToReceive: 1
+  eventsToReceive: 0
   debounceThreshold: 0.01
 --- !u!1 &1353113928
 GameObject:
@@ -1155,6 +1155,7 @@ GameObject:
   - component: {fileID: 1433975278}
   - component: {fileID: 1433975277}
   - component: {fileID: 1433975276}
+  - component: {fileID: 1433975279}
   m_Layer: 5
   m_Name: PrevButton
   m_TagString: Untagged
@@ -1232,7 +1233,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 0
 --- !u!114 &1433975277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,6 +1269,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433975274}
   m_CullTransparentMesh: 0
+--- !u!114 &1433975279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433975274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1353113929}
+          m_MethodName: PrevTask
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
+  delegates: []
 --- !u!1001 &1469534089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1281,31 +1311,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3495264
+      value: -0.009
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.05710554
+      value: 0.2543
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.56
+      value: 0.893
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.39952874
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.8337939
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.2998985
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.23500107
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_RootOrder
@@ -1313,15 +1343,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -18.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 138.335
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 58.180004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54a22a266466e024ab87c5da47f399c9, type: 3}
@@ -1415,7 +1457,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 0
 --- !u!114 &1480103926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1482,18 +1524,7 @@ MonoBehaviour:
   - eventID: 3
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1353113928}
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 1
+        m_Calls: []
   delegates: []
 --- !u!1 &1503769595
 GameObject:
