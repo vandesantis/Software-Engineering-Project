@@ -1240,6 +1240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TaskProcess
       objectReference: {fileID: 0}
+    - target: {fileID: 5809532155015871928, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5809532153580210026, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1253,7 +1258,7 @@ PrefabInstance:
     - target: {fileID: 5809532153580210026, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.144938
+      value: 0.57
       objectReference: {fileID: 0}
     - target: {fileID: 5809532153580210026, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
@@ -1309,11 +1314,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -40
-      objectReference: {fileID: 0}
-    - target: {fileID: 5809532155015871928, guid: c5bb260e00f4a1043b9787f9d049dc53,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5809532153089509290, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
