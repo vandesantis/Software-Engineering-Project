@@ -1305,11 +1305,6 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontSize
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 6504583430678551149, guid: c5bb260e00f4a1043b9787f9d049dc53,
-        type: 3}
-      propertyPath: m_Name
-      value: Backpanel
-      objectReference: {fileID: 0}
     - target: {fileID: 5809532153580210026, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1465,11 +1460,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6250875055e50a94c91d0853461589bd, type: 2}
-    - target: {fileID: 8374009442065183336, guid: c5bb260e00f4a1043b9787f9d049dc53,
-        type: 3}
-      propertyPath: m_Name
-      value: Battery
-      objectReference: {fileID: 0}
     - target: {fileID: 6504583430678447693, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
       propertyPath: m_LocalPosition.x
