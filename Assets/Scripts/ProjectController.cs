@@ -18,14 +18,14 @@ public class ProjectController : MonoBehaviour
     void Start()
     {
         taskStrings = new string[numTasks];
-        taskStrings[0] = "Task 0: Open back panel";
-        taskStrings[1] = "Task 1: Identify ram slot";
-        taskStrings[2] = "Task 2: Pick up addition ram";
-        taskStrings[3] = "Task 3: Insert ram into the slot";
-        taskStrings[4] = "Task 4: Plug in wire to ram";
-        taskStrings[5] = "Task 5: Close back panel";
-        taskStrings[6] = "Task 6";
-        taskStrings[7] = "Task 7";
+        taskStrings[0] = "Task 0: Remove battery";
+        taskStrings[1] = "Task 1: Unscrew back panel";
+        taskStrings[2] = "Task 2: Remove back panel";
+        taskStrings[3] = "Task 3: Remove ram from slot";
+        taskStrings[4] = "Task 4: Insert new ram";
+        taskStrings[5] = "Task 5: Put on back panel";
+        taskStrings[6] = "Task 6: Screw in back panel";
+        taskStrings[7] = "Task 7: Replace battery";
         taskStrings[8] = "Task 8";
         taskStrings[9] = "Task 9";
         taskStrings[10] = "Task 10";
