@@ -39,6 +39,10 @@ public class ProjectController : MonoBehaviour
         taskText.text = taskStrings[currentTaskNum];
 
         foreach (Animator ani in aniList) {
+            if (ani == null)
+            {
+                continue;
+            }
             ani.enabled = false;
         }
         aniList[0].enabled = true;
