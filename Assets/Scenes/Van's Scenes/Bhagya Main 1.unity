@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -519,6 +519,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 1
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
 --- !u!114 &1142482709
 MonoBehaviour:
@@ -571,6 +573,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 0
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1142482710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,6 +593,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -616,6 +622,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_Name
       value: screw
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -672,14 +686,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.006000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 22.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -770,8 +776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   taskText: {fileID: 717942247}
   aniList:
-  - {fileID: 5809532154298028130}
   - {fileID: 1286216448}
+  - {fileID: 797628283}
   - {fileID: 797628283}
   - {fileID: 797628283}
   - {fileID: 797628283}
@@ -1015,6 +1021,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: screw2
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.29592776
@@ -1070,18 +1088,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.0060000084
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 22.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 6303fdfc6c2e14d4f84f9e1e06a7838e, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1175,6 +1181,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 5
@@ -1465,11 +1473,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6250875055e50a94c91d0853461589bd, type: 2}
-    - target: {fileID: 8374009442065183336, guid: c5bb260e00f4a1043b9787f9d049dc53,
-        type: 3}
-      propertyPath: m_Name
-      value: Battery
-      objectReference: {fileID: 0}
     - target: {fileID: 6504583430678447693, guid: c5bb260e00f4a1043b9787f9d049dc53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1515,6 +1518,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8374009442065183336, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_Name
+      value: Battery
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.258
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.033429034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374009442064690760, guid: c5bb260e00f4a1043b9787f9d049dc53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5bb260e00f4a1043b9787f9d049dc53, type: 3}
 --- !u!4 &5809532154298028128 stripped
@@ -1537,7 +1595,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5809532154298028129}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 5f42205808de082498498c26f9d0158b, type: 2}
   m_CullingMode: 0
