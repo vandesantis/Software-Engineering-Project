@@ -41,6 +41,8 @@ public class ProjectController : MonoBehaviour
         foreach (Animator ani in aniList) {
             ani.enabled = false;
         }
+        aniList[0].enabled = true;
+
     }
 
     // Update is called once per frame
