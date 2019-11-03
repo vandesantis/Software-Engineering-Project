@@ -11,6 +11,9 @@ public class ProjectController : MonoBehaviour
     public Text taskText;
     private string[] taskStrings;
 
+
+    public Animator[] aniList = new Animator[5];
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +37,10 @@ public class ProjectController : MonoBehaviour
 
         currentTaskNum = 0;
         taskText.text = taskStrings[currentTaskNum];
+
+        foreach (Animator ani in aniList) {
+            ani.enabled = false;
+        }
     }
 
     // Update is called once per frame
@@ -49,6 +56,8 @@ public class ProjectController : MonoBehaviour
             return;
         }
         currentTaskNum++;
+
+        aniList[currentTaskNum].enabled = true;
         taskText.text = taskStrings[currentTaskNum];
     }
 
